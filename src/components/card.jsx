@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
     return ( 
-        <div className="bg-white w-1/4 text-center px-4 leading-loose text-sm p-[20px] rounded-[10px] br-black ">
+        <div className="bg-white w-1/4 text-center px-4 leading-loose text-sm p-[20px] rounded-[10px] br-black ms:w-full ms:mx-[16px] sm:w-1/2 md:w-1/3">
                 <div class="w-[70px] h-[70px] rounded-full overflow-hidden mx-auto">
                     <img src={process.env.PUBLIC_URL + `/public_img/photo-cover.svg`} alt="" class="object-cover w-full h-full"/>
                 </div>

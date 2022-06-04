@@ -11,6 +11,7 @@ const GridPersons = () => {
             <Card/>
             <Card/>
             <Card/>
+            <Card/>
         </div>
         <button className="w-[100px] h-[34px] bg-[#F4E041] rounded-[80px] text-black mt-[20px]">Show more</button>
     </div>
