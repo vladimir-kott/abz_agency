@@ -1,6 +1,6 @@
 import React from "react";
 
-const Preloader = () => {
+const Preloader = () => { // прелоадер универсальный 
     return (
     <div className="flex">
           <div className="m-auto">

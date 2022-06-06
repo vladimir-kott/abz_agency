@@ -11,7 +11,7 @@ const GridPersons = () => {
     const [showButton, setShowButton] = useState(true)
     const [maxPage, setMaxPage] = useState(0)
 
-    async function getUser() {
+    async function getUser() { // получаем юзеров с API
         try {
           setIsLoading(true)
           setPage(1 + page)
@@ -25,26 +25,26 @@ const GridPersons = () => {
         }
     }
 
-    function filteredCard(arr){
+    function filteredCard(arr){ // стандартная js сортировка
         //console.log('arr', arr)
         const dataUserArr = arr.sort((a, b) => new Date(b.registration_timestamp * 1000) - new Date(a.registration_timestamp * 1000))
         //console.log('arr sorted', dataUserArr)
         return dataUserArr
     }
 
-    const handleClick = () => {
+    const handleClick = () => { // нажатие на кнопку
         if(page < maxPage){
             getUser()
-            console.log(page)
-            console.log(maxPage)
+            //console.log(page)
+            //console.log(maxPage)
         }
         else{
             setShowButton(false)
-            console.log('button false')
+            //console.log('button false')
         }
     }
 
-    useEffect(() => {
+    useEffect(() => { // инициализация
         getUser();
     }, []);
 

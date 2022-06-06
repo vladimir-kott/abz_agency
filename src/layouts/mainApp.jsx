@@ -5,7 +5,7 @@ import GridPersons from "../components/gridPersons";
 import SignUp from "../components/signUp";
 
 
-const MainApp = () => {
+const MainApp = () => { // сборка в корень 
     return ( <>
         <header className="">
             <NavPanel/>

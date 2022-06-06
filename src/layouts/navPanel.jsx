@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavPanel = () => {
+const NavPanel = () => { // навигация у меня как лейаут ибо в других проектах навигационная панель обширный лейаут с кучей компонентов под разные устройства + если юзать редакс или контекст то нав панель выступает main parent
     return ( 
         <div className="bg-white">
             <div className="h-[60px] flex justify-between items-center max-w-[1170px] m-auto">

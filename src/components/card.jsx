@@ -1,10 +1,6 @@
 import React from "react";
 
-const Card = ({data}) => {
-
-
-    //console.log(data)
-
+const Card = ({data}) => { // кард на флексах, под любой экран 
     return ( 
         <div className="bg-white text-center px-4 leading-loose text-sm p-[20px] rounded-[10px] br-black ms:w-full ms:mx-[16px] sm:w-1/2 md:w-1/3 lg:w-1/4">
                 <div className="w-[70px] h-[70px] rounded-full overflow-hidden mx-auto">

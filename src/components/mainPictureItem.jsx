@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainPictureItem = () => {
+const MainPictureItem = () => { // обычный компонент
     return ( 
         <div className="max-w-[1170px] m-auto relative">
             <img src={process.env.PUBLIC_URL + `/public_img/pexels-alexandr-podvalny-1227513.jpeg`} className="md:h-auto ms:h-[500px] lg:h-auto" alt="V. Kott"/>
