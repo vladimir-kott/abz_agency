@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abz_agency/static/css/main.39ebca1e.css",
+    "main.js": "/abz_agency/static/js/main.38b73fdf.js",
+    "static/js/787.592e5983.chunk.js": "/abz_agency/static/js/787.592e5983.chunk.js",
+    "index.html": "/abz_agency/index.html",
+    "main.39ebca1e.css.map": "/abz_agency/static/css/main.39ebca1e.css.map",
+    "main.38b73fdf.js.map": "/abz_agency/static/js/main.38b73fdf.js.map",
+    "787.592e5983.chunk.js.map": "/abz_agency/static/js/787.592e5983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39ebca1e.css",
+    "static/js/main.38b73fdf.js"
+  ]
+}
